@@ -1,5 +1,7 @@
 export const bio = [
-  "Kreativer Softwareentwickler mit einer Leidenschaft für das Lösen von komplexen Problemen. Ich freue mich darauf, innovative Softwarelösungen zu entwickeln und meine Fähigkeiten in einem Team weiter auszubauen.",
+  "Hallo i bin da dommie.",
+  "WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUIIII.",
+  "Thanks for visiting not!",
 ];
 
 export const skills = [
