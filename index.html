@@ -1,187 +1,348 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="de">
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title></title>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="Portfolio webpage of Vinay Somawat" />
-   <meta name="keywords"
-      content="portfolio,website,personal website,github,projects,computer science and engineering" />
-   <meta name="author" content="Vinay Somawat" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="icon" type="image/png" href="/images/logo.png">
-   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="css/animate.css">
-   <link rel="stylesheet" href="css/bootstrap.css">
-   <link rel="stylesheet" href="css/style.css">
-   <script src="js/modernizr-2.6.2.min.js"></script>
-   <script type="module" src="index.js"></script>
-   <script src="js/profile-card.js"></script>
+    <title>Thomas Mayr Portfolio</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio von Thomas Mayr, Softwareentwickler. Entdecke meine Projekte und Arbeiten.">
+    <meta name="keywords" content="Portfolio, Softwareentwicklung, Webentwicklung, Thomas Mayr">
+    <meta name="author" content="Thomas Mayr">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-
 <body>
-   <div id="colorlib-page">
-      <div class="container-wrap">
-         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
-            aria-expanded="false" aria-controls="navbar"><i></i></a>
-         <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
-            <div class="text-center">
-               <div class="author-img">
-                  <img alt="profile-img" src="images/logo.png">
-               </div>
-               <h1 id="colorlib-logo"><a href="./index.html">Vinay
-                     Somawat</a>
-               </h1>
-            </div>
-            <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
-               <div id="navbar" class="collapse">
-                  <ul>
-                     <li><a href="#" data-nav-section="about">About</a></li>
-                     <li><a href="#" data-nav-section="skills">Skills</a>
-                     </li>
-                     <li><a href="#" data-nav-section="projects">Projects</a>
-                     </li>
-                     <li><a href="#" data-nav-section="blogs">Blogs</a>
-                     </li>
-                     <li><a href="#" data-nav-section="experience">Work
-                           Experience</a></li>
-                     <li><a href="#" data-nav-section="education">Education</a></li>
-                     <li><a href="#" data-nav-section="contact">Contact</a>
-                     </li>
-                  </ul>
-               </div>
-            </nav>
-         </aside>
-         <div id="colorlib-main">
-            <section class="colorlib-about" data-section="about">
-               <div class="colorlib-narrow-content">
-                  <div class="row animate-box" data-animate-effect="fadeInLeft">
-                     <div class="about-desc">
-                        <h1>About</h1>
-                        <div id="bio">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <!--------------------[END] About me---------------------------->
-            <!--------------------[START] Skills---------------------------->
-            <section class="colorlib-skills" data-section="skills">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                     <div class="about-desc">
-                        <h1>Skills</h1>
-                     </div>
-                  </div>
-                  <div id="skills" class="row">
-                  </div>
-               </div>
-            </section>
-            <!--------------------[END] Skills------------------------------>
-            <section class="colorlib-profile" data-section="profile-card">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                     <div class="profile-cards">
-                        <div class="col">
-                           <div class="stack-card" user-id="8461233"></div>
-                        </div>
-                        <div class="col">
-                           <div class="github-card" username="vinaysomawat"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <!--------------------[START] Projects-------------------------->
-            <section class="colorlib-projects no-print" data-section="projects">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                     <div class="about-desc">
-                        <h1>Projects</h1>
-                     </div>
-                  </div>
-                  <ul id="accordion" class="accordion animate-box" data-animate-effect="fadeInLeft">
-                     <li>
-                        <div class="link">
-                           <p style="margin-bottom: 0px">Web Projects</p>
-                           <i class="fa fa-chevron-down"></i>
-                        </div>
-                        <ul id="web-projects" class="submenu">
-                        </ul>
-                     </li>
-                     <li>
-                        <div class="link">
-                           <p style="margin-bottom: 0px">Software Projects
-                           </p>
-                           <i class="fa fa-chevron-down"></i>
-                        </div>
-                        <ul id="software-projects" class="submenu">
-                        </ul>
-                     </li>
-                     <li>
-                        <div class="link">
-                           <p style="margin-bottom: 0px">Android Projects
-                           </p>
-                           <i class="fa fa-chevron-down"></i>
-                        </div>
-                        <ul id="android-projects" class="submenu">
-                        </ul>
-                     </li>
-                     <li>
-                        <div class="link">
-                           <p style="margin-bottom: 0px">Freelance Projects
-                           </p>
-                           <i class="fa fa-chevron-down"></i>
-                        </div>
-                        <ul id="freelance-projects" class="submenu">
-                        </ul>
-                     </li>
-                  </ul>
-               </div>
-            </section>
-            <!--------------------[END] Projects---------------------------->
-            <!--------------------[START] Contact--------------------------->
-            <section class="colorlib-contact" data-section="contact">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                     <div class="about-desc">
-                        <h1>Contact</h1>
-                     </div>
-                     <p>Feel free to email me at Thomas.Mayr1908@gmail.com for tech discussions, business opportunities, or just to say hello—I’d love to hear from you!
-                     </p>
-                  </div>
-               </div>
-            </section>
-            <!--------------------[END] Contact----------------------------->
-            <!--------------------[START] Footer---------------------------->
-            <section class="colorlib-footer no-print" data-section="footer">
-               <div class="colorlib-narrow-content">
-                  <footer class="footer" id="footer">
-                  </footer>
-               </div>
-            </section>
-            <!--------------------[END] Footer------------------------------>
-         </div>
-         <!-----[END] Main Page--------->
-      </div>
-   </div>
-   <!-- jQuery -->
-   <script src="js/jquery.min.js"></script>
-   <!-- jQuery Easing -->
-   <script src="js/jquery.easing.1.3.js"></script>
-   <!-- Bootstrap -->
-   <script src="js/bootstrap.min.js"></script>
-   <!-- Waypoints -->
-   <script src="js/jquery.waypoints.min.js"></script>
-   <!-- Flexslider -->
-   <script src="js/jquery.flexslider-min.js"></script>
-   <!-- Counters -->
-   <script src="js/jquery.countTo.js"></script>
-   <!-- MAIN JS -->
-   <script src="js/main.js"></script>
-</body>
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <a href="index.html">
+                <svg id="Layer 1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133 89">
+                    <g id="Layer_2" data-name="Layer 2">
+                    <g id="Layer_1-2" data-name="Layer 1-2">
+                        <path class="logo-1" d="M4,49.15V39.5L43.8,21.77V33.06L16.35,44.23l.35-.63V45l-.35-.55L43.77,55.6V66.81Z"/>
+                        <path class="logo-1" d="M54.94,67,55,22H66V34.84l-.47-.26a17.3,17.3,0,0,1,3-6.48,12.37,12.37,0,0,1,4.63-3.7,13.29,13.29,0,0,1,5.59-1.2,10.22,10.22,0,0,1,7.62,2.95q2.88,3,4.25,9.13H89.24a16.53,16.53,0,0,1,3.18-6.81,13.66,13.66,0,0,1,5.24-4A16,16,0,0,1,104,23.2a14.57,14.57,0,0,1,7.17,1.74,12.53,12.53,0,0,1,5,5,16.24,16.24,0,0,1,1.82,8V67h-11.8V40.1c0-2.44-.66-4.26-2-5.44a7.17,7.17,0,0,0-4.92-1.77,7.45,7.45,0,0,0-3.81.94A6.33,6.33,0,0,0,93,36.47a8.51,8.51,0,0,0-.88,4V67H80.76V39.79a6.77,6.77,0,0,0-1.89-5A6.7,6.7,0,0,0,74,32.89a7.48,7.48,0,0,0-3.73.92,6.58,6.58,0,0,0-2.61,2.72,9.26,9.26,0,0,0-1,4.38V67Z"/>
+                        <rect class="logo-2" x="129" width="4" height="89"/>
+                        <polygon class="logo-1" points="66 0 0 0 0 11 32.03 11 32.03 21.5 43.5 16.5 43.5 11 66 11 66 0"/>
+                    </g>
+                    </g>
+                </svg>
+            </a>
+        </div>
 
+        <nav>
+            <ul>
+                <li><a href="#about">Über Mich</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <section id="about" class="hero">
+
+            <div class="header-icons-group">
+                <div class="hero-header">
+                    <p class="hero-intro">Hallo, Ich bin</p>
+                    <p class="hero-name">Thomas Mayr</p>
+                    <p class="hero-job">Software Developer</p>
+                </div>
+
+                <div class="social-icons">
+                    <a href="resources/Lebenslauf_Thomas_Mayr.pdf" class="button-classic">Download CV 
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M13 11.15V4a1 1 0 1 0-2 0v7.15L8.78 8.374a1 1 0 1 0-1.56 1.25l4 5a1 1 0 0 0 1.56 0l4-5a1 1 0 1 0-1.56-1.25L13 11.15Z" clip-rule="evenodd"/>
+                            <path fill-rule="evenodd" d="M9.657 15.874 7.358 13H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2.358l-2.3 2.874a3 3 0 0 1-4.685 0ZM17 16a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H17Z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/thomas-mayr-5b8676227/" target="_blank" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
+                            <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>   
+                        </svg>
+                    </a>
+                    <a href="https://github.com/ThymasMaurizius" target="_blank" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"/> 
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/thymas_maurizius/" target="_blank" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/> 
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-description">
+                <p>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."</p>
+            </div>
+
+            <div class="profile-picture">
+                <img src="images/profile.png" alt="Portrait von Thomas Mayr">
+            </div>
+
+        </section>
+
+        <section id="portfolio">
+            <header class="section-header"><h1>Meine Projekte</h1></header>
+            <div class="portfolio-grid">
+        
+                <article class="portfolio-eintrag">
+                    <a href="project1.html">
+                        <header>
+                            <h3>Projektname 1</h3>
+                            <div class="portfolio-eintrag-header-row">
+                                <h4>Unterüberschrift</h4>
+                                <time class="portfolio-eintrag-header-row-datum">Januar 2023 - Mai 2023</time>
+                            </div>
+                        </header>
+                        <div class="portfolio-eintrag-content" style="--bg-image: url('images/profile.png');">
+                            <p>Hier kommt der beschreibende Text über das Projekt...</p>
+                            <ul class="portfolio-eintrag-tags">
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                            </ul>
+                        </div>
+                    </a>
+                </article>
+                
+                <article class="portfolio-eintrag">
+                    <a href="project1.html">
+                        <header>
+                            <h3>Projektname 1</h3>
+                            <div class="portfolio-eintrag-header-row">
+                                <h4>Unterüberschrift</h4>
+                                <time class="portfolio-eintrag-header-row-datum">Januar 2023 - Mai 2023</time>
+                            </div>
+                        </header>
+                        <div class="portfolio-eintrag-content" style="--bg-image: url('images/profile.png');">
+                            <p>Hier kommt der beschreibende Text über das Projekt...</p>
+                            <ul class="portfolio-eintrag-tags">
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                            </ul>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="portfolio-eintrag">
+                    <a href="project1.html">
+                        <header>
+                            <h3>Projektname 1</h3>
+                            <div class="portfolio-eintrag-header-row">
+                                <h4>Unterüberschrift</h4>
+                                <time class="portfolio-eintrag-header-row-datum">Januar 2023 - Mai 2023</time>
+                            </div>
+                        </header>
+                        <div class="portfolio-eintrag-content" style="--bg-image: url('images/profile!.png');">
+                            <p>Hier kommt der beschreibende Text über das Projekt...</p>
+                            <ul class="portfolio-eintrag-tags">
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                            </ul>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="portfolio-eintrag">
+                    <a href="project1.html">
+                        <header>
+                            <h3>Projektname 1</h3>
+                            <div class="portfolio-eintrag-header-row">
+                                <h4>Unterüberschrift</h4>
+                                <time class="portfolio-eintrag-header-row-datum">Januar 2023 - Mai 2023</time>
+                            </div>
+                        </header>
+                        <div class="portfolio-eintrag-content" style="--bg-image: url('images/test.png');">
+                            <p>Hier kommt der beschreibende Text über das Projekt...</p>
+                            <ul class="portfolio-eintrag-tags">
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                            </ul>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="portfolio-eintrag">
+                    <a href="project1.html">
+                        <header>
+                            <h3>Projektname 1</h3>
+                            <div class="portfolio-eintrag-header-row">
+                                <h4>Unterüberschrift</h4>
+                                <time class="portfolio-eintrag-header-row-datum">Januar 2023 - Mai 2023</time>
+                            </div>
+                        </header>
+                        <div class="portfolio-eintrag-content" style="--bg-image: url('images/profile.png');">
+                            <p>Hier kommt der beschreibende Text über das Projekt...</p>
+                            <ul class="portfolio-eintrag-tags">
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                            </ul>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="portfolio-eintrag">
+                    <a href="project1.html">
+                        <header>
+                            <h3>Projektname 1</h3>
+                            <div class="portfolio-eintrag-header-row">
+                                <h4>Unterüberschrift</h4>
+                                <time class="portfolio-eintrag-header-row-datum">Januar 2023 - Mai 2023</time>
+                            </div>
+                        </header>
+                        <div class="portfolio-eintrag-content" style="--bg-image: url('images/profile.png');">
+                            <p>Hier kommt der beschreibende Text über das Projekt...</p>
+                            <ul class="portfolio-eintrag-tags">
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                            </ul>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="portfolio-eintrag">
+                    <a href="project1.html">
+                        <header>
+                            <h3>Projektname 1</h3>
+                            <div class="portfolio-eintrag-header-row">
+                                <h4>Unterüberschrift</h4>
+                                <time class="portfolio-eintrag-header-row-datum">Januar 2023 - Mai 2023</time>
+                            </div>
+                        </header>
+                        <div class="portfolio-eintrag-content" style="--bg-image: url('images/profile.png');">
+                            <p>Hier kommt der beschreibende Text über das Projekt...</p>
+                            <ul class="portfolio-eintrag-tags">
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                            </ul>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="portfolio-eintrag">
+                    <a href="project1.html">
+                        <header>
+                            <h3>Projektname 1</h3>
+                            <div class="portfolio-eintrag-header-row">
+                                <h4>Unterüberschrift</h4>
+                                <time class="portfolio-eintrag-header-row-datum">Januar 2023 - Mai 2023</time>
+                            </div>
+                        </header>
+                        <div class="portfolio-eintrag-content" style="--bg-image: url('images/profile.png');">
+                            <p>Hier kommt der beschreibende Text über das Projekt...</p>
+                            <ul class="portfolio-eintrag-tags">
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                                <li class="portfolio-eintrag-tags-tag">C++</li>
+                                <li class="portfolio-eintrag-tags-tag">C#</li>
+                                <li class="portfolio-eintrag-tags-tag">JavaScript</li>
+                                <li class="portfolio-eintrag-tags-tag">Git</li>
+                            </ul>
+                        </div>
+                    </a>
+                </article>
+
+                
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <header class="section-header"><h1>Schreib mir!</h1></header>
+            <div class="contact-wrapper">
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name" required>
+                    
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" placeholder="E-Mail" required autocomplete="email">
+                    
+                    <label for="message">Nachricht</label>
+                    <textarea id="message" placeholder="Nachricht" rows="5" required></textarea>
+                    
+                    <button type="submit">Senden</button>
+                </form>
+                <div class="contact-graphic">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736.98 421"><defs><style>.cls-1,.cls-5,.cls-7{fill:#73c9c3;}.cls-2,.cls-3{fill:#9dd8d1;}.cls-2,.cls-4,.cls-6,.cls-7{stroke:#73c9c3;stroke-width:2px;}.cls-13,.cls-2,.cls-4,.cls-6,.cls-7{stroke-miterlimit:10;}.cls-4{fill:#f8fcf8;}.cls-5{font-size:24px;letter-spacing:0.04em;}.cls-14,.cls-19,.cls-5{font-family:TrebuchetMS-Bold, Trebuchet MS;font-weight:700;}.cls-6{fill:#1f1000;}.cls-8{fill:#606060;}.cls-9{fill:#b3b3b3;}.cls-10{fill:#ed1c24;}.cls-10,.cls-11,.cls-12{opacity:0.25;}.cls-11{fill:#e6e6e6;}.cls-12{fill:#f2f2f2;}.cls-13{fill:none;stroke:gray;}.cls-14{font-size:12px;fill:#4d4d4d;letter-spacing:0.04em;}.cls-15{fill:gray;}.cls-16{fill:#edf8ee;}.cls-17{fill:#ccc;}.cls-18{fill:#030703;}.cls-19{font-size:16px;fill:#4cb859;letter-spacing:0.04em;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" x="608" y="355" width="23" height="3"/><rect class="cls-1" x="645" y="355" width="23" height="3"/><rect class="cls-1" x="683" y="355" width="23" height="3"/><path class="cls-2" d="M171.64,1H710.36A23.64,23.64,0,0,1,734,24.64V316a0,0,0,0,1,0,0H148a0,0,0,0,1,0,0V24.64A23.64,23.64,0,0,1,171.64,1Z"/><path class="cls-1" d="M479.67,181s-86.67.15-86.67.33A798.24,798.24,0,0,1,402,295a798.13,798.13,0,0,1-9,125.67.31.31,0,0,0,.1.23.33.33,0,0,0,.23.1h86.34a.33.33,0,0,0,.33-.33A815.94,815.94,0,0,1,479.67,181Z"/><rect class="cls-3" x="304" y="410" width="269" height="11"/><path class="cls-4" d="M148,316H734a0,0,0,0,1,0,0v19a20,20,0,0,1-20,20H168a20,20,0,0,1-20-20V316A0,0,0,0,1,148,316Z"/><text class="cls-5" transform="translate(421.99 345.41)">TM</text><rect class="cls-6" x="166" y="18" width="549" height="292"/><path class="cls-1" d="M704.85,393.21a3.65,3.65,0,0,0-6.64-.15c-18.81.92-33.75,13-34.19,27.94h73C736.56,406.63,722.68,394.87,704.85,393.21Z"/><rect class="cls-1" x="698" y="394" width="1" height="12"/><path class="cls-3" d="M736.78,421c-.46-15.52-16.61-28-36.48-28s-36,12.48-36.48,28Z"/><rect class="cls-1" x="701" y="393" width="1" height="14"/><path class="cls-4" d="M43,305v18c-23.24.26-42,18.06-42,40s18.76,39.73,42,40v17h88V305ZM13.41,363c0-16.34,12.87-29.83,29.59-32v64C26.28,392.83,13.41,379.34,13.41,363Z"/><ellipse class="cls-7" cx="87" cy="305" rx="44" ry="3"/><path class="cls-7" d="M85.25,352.47c-.91,1.71-1.88,3.4-2.89,5.08-1.38-1.5-3.62-2.36-6.79-2.78a10.19,10.19,0,0,0-8.13,2.39,15.18,15.18,0,0,0-5.15,8.5c-.9,3.69-.59,6.89,1.11,9.53A11.12,11.12,0,0,0,71.63,380c4.28.58,7.78-.36,10.26-2.62q1.69,2.64,3.53,5.24c-3.39,2.64-8.6,3.77-15.23,2.83s-11.42-3.77-14-7.84S53.3,368.75,55,363.37a20.66,20.66,0,0,1,8.46-11.28,17.15,17.15,0,0,1,12.48-2.92C79.83,349.7,82.89,350.72,85.25,352.47Z"/><path class="cls-7" d="M121,359.16c-1.87.58-3.74,1.11-5.63,1.59-.09,2.7-.25,5.4-.45,8.1,1.45-.34,2.9-.7,4.34-1.1.38,1.42.77,2.83,1.16,4.24-2,.54-3.94,1-5.92,1.46-.43,3.64-1,7.3-1.61,10.95q-3.14.59-6.28,1c.79-3.61,1.49-7.23,2.07-10.84q-3.41.57-6.83.95-1.2,5.37-2.69,10.71-3.17.25-6.33.35c1.16-3.5,2.23-7,3.19-10.56-1.39.08-2.79.14-4.18.18l-.12-4.39c1.82-.05,3.63-.14,5.45-.27.6-2.64,1.16-5.28,1.66-7.93-1.41.13-2.81.24-4.22.32l-.24-4.39q2.64-.15,5.28-.42c.59-3.29,1.09-6.57,1.5-9.86,1.5-.2,3-.44,4.48-.71q-.35,4.95-1,9.91,2.93-.47,5.84-1.09c.24-3.32.39-6.65.46-10,1.48-.36,3-.75,4.41-1.19.12,3.31.16,6.62.11,9.95,1.4-.37,2.8-.78,4.18-1.21Zm-10.64,2.74q-3.15.64-6.31,1.1-.57,4-1.31,8,3.38-.4,6.73-1C109.83,367.29,110.13,364.59,110.37,361.9Z"/><rect class="cls-8" x="423" y="19" width="290" height="290"/><rect class="cls-9" x="423" y="19" width="290" height="10"/><rect class="cls-10" x="702" y="19" width="11" height="10"/><rect class="cls-11" x="691" y="19" width="11" height="10"/><rect class="cls-12" x="680" y="19" width="11" height="10"/><line class="cls-13" x1="681" y1="27.5" x2="690" y2="27.5"/><rect class="cls-13" x="693.5" y="20.5" width="6" height="7"/><line class="cls-13" x1="704.75" y1="21.25" x2="711.25" y2="27.75"/><line class="cls-13" x1="704.65" y1="27.65" x2="711.3" y2="20.99"/><text class="cls-14" transform="translate(431.49 47.49)">150</text><text class="cls-14" transform="translate(431.49 65.41)">151</text><text class="cls-14" transform="translate(431.49 83.33)">152</text><text class="cls-14" transform="translate(431.49 101.25)">153</text><text class="cls-14" transform="translate(431.49 119.17)">154</text><text class="cls-14" transform="translate(431.49 137.09)">155</text><text class="cls-14" transform="translate(431.49 155.01)">156</text><text class="cls-14" transform="translate(431.49 172.93)">157</text><text class="cls-14" transform="translate(431.49 190.85)">158</text><text class="cls-14" transform="translate(431.49 208.77)">159</text><text class="cls-14" transform="translate(431.49 226.69)">160</text><text class="cls-14" transform="translate(431.49 244.6)">161</text><text class="cls-14" transform="translate(431.49 262.52)">162</text><text class="cls-14" transform="translate(431.49 280.44)">163</text><text class="cls-14" transform="translate(431.49 298.36)">164</text><rect class="cls-15" x="462" y="39" width="221" height="8" rx="3.63"/><rect class="cls-15" x="462" y="57" width="86" height="8" rx="3.63"/><rect class="cls-15" x="551" y="57" width="143" height="8" rx="3.63"/><rect class="cls-15" x="611" y="129" width="86" height="8" rx="3.63" transform="translate(1308 266) rotate(180)"/><rect class="cls-15" x="462" y="129" width="143" height="8" rx="3.63" transform="translate(1067 266) rotate(180)"/><rect class="cls-15" x="462" y="75" width="171" height="8" rx="3.63"/><rect class="cls-15" x="462" y="93" width="60" height="8" rx="3.63"/><rect class="cls-15" x="526" y="93" width="71" height="8" rx="3.63"/><rect class="cls-15" x="462" y="147" width="221" height="8" rx="3.63"/><rect class="cls-15" x="462" y="165" width="86" height="8" rx="3.63"/><rect class="cls-15" x="551" y="165" width="143" height="8" rx="3.63"/><rect class="cls-15" x="462" y="183" width="171" height="8" rx="3.63"/><rect class="cls-15" x="462" y="201" width="60" height="8" rx="3.63"/><rect class="cls-15" x="526" y="201" width="71" height="8" rx="3.63"/><rect class="cls-15" x="462" y="219" width="171" height="8" rx="3.63"/><rect class="cls-15" x="462" y="237" width="60" height="8" rx="3.63"/><rect class="cls-15" x="526" y="237" width="71" height="8" rx="3.63"/><rect class="cls-15" x="462" y="255" width="171" height="8" rx="3.63"/><rect class="cls-15" x="462" y="291" width="86" height="8" rx="3.63"/><rect class="cls-15" x="551" y="291" width="143" height="8" rx="3.63"/><rect class="cls-16" x="166" y="19" width="257" height="290"/><rect class="cls-8" x="185" y="40" width="179" height="112"/><path class="cls-9" d="M294.54,116l-14.3-24,14.3-24,7,24Zm-31.62-2.32L245,96.05h28.64l14.3,24Zm0-43.62,25-6.32-14.3,24h-29c0,.34,18.31-17.65,18.31-17.65Zm36.62-18-32.61,8.32-5,8.33h-9.67l-24,23.3,24,23.3h9.67l4.65,8.32L299.22,132l8.64-31.62-4.65-8.33,5-8.32Z"/><rect class="cls-9" x="185" y="30" width="179" height="10"/><rect class="cls-10" x="353" y="30" width="11" height="10"/><rect class="cls-11" x="342" y="30" width="11" height="10"/><rect class="cls-12" x="331" y="30" width="11" height="10"/><line class="cls-13" x1="332" y1="38.5" x2="341" y2="38.5"/><rect class="cls-13" x="344.5" y="31.5" width="6" height="7"/><line class="cls-13" x1="355.75" y1="32.25" x2="362.25" y2="38.75"/><line class="cls-13" x1="355.65" y1="38.65" x2="362.3" y2="31.99"/><rect class="cls-9" x="186" y="140" width="177" height="11"/><rect class="cls-17" x="187" y="141" width="111" height="9"/><rect class="cls-18" x="286" y="177.21" width="197.34" height="125.52"/><rect class="cls-9" x="286" y="166" width="197.34" height="11.21"/><rect class="cls-10" x="471.21" y="166" width="12.13" height="11.21"/><rect class="cls-11" x="459.08" y="166" width="12.13" height="11.21"/><rect class="cls-12" x="446.95" y="166" width="12.13" height="11.21"/><line class="cls-13" x1="448.06" y1="175.53" x2="457.98" y2="175.53"/><rect class="cls-13" x="461.84" y="167.68" width="6.61" height="7.84"/><line class="cls-13" x1="474.24" y1="168.52" x2="481.41" y2="175.81"/><line class="cls-13" x1="474.13" y1="175.69" x2="481.46" y2="168.23"/><text class="cls-19" transform="translate(290.76 193.51) scale(1.14 1)">&gt;_</text></g></g></svg>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <h3>Impressum</h3>
+            <div class="contact-info">
+                <div>
+                    <svg width="24" height="24" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0L0 6V8H1V15H4V10H7V15H15V8H16V6L14 4.5V1H11V2.25L8 0ZM9 10H12V13H9V10Z" fill="#000000"/>
+                    </svg>
+                    <p>Dr.Muralter-Straße 11, 5020 Salzburg, Österreich</p>
+                </div>
+                <div>
+                    <svg width="24" height="24" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 5.3585V14H16V5.35849L8 10.3585L0 5.3585Z" fill="#000000"/>
+                    <path d="M16 3V2H0V3L8 8L16 3Z" fill="#000000"/>
+                    </svg>
+                    <p>Thomas.Mayr1908@gmail.com</p>
+                </div>
+                <div>
+                    <svg width="24" height="24" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 5V1H7V5L4.5 7.5L8.5 11.5L11 9H15V15H11C5.47715 15 1 10.5228 1 5Z" fill="#000000"/>
+                    </svg>
+                    <p>+43 06703529860</p>
+                </div>
+            </div>    
+            <p>&copy; 2024 Thomas Mayr. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+</body>
 </html>
