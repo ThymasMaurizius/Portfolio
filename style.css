@@ -361,6 +361,7 @@ section {
 .portfolio-eintrag-content {
     position: relative;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: space-between; /* Text oben, Tags unten */
     background-size: cover;
