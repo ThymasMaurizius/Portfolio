@@ -264,11 +264,14 @@
             <div class="contact-wrapper">
                 <form class="contact-form" action="https://formsubmit.co/el/cizega" method="POST">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="text" name="name" id="name" placeholder="Name" required></input>
                     
                     <label for="email">E-Mail</label>
-                    <input type="email" name="email" id="email" placeholder="E-Mail" required autocomplete="email">
+                    <input type="email" name="email" id="email" placeholder="E-Mail" required autocomplete="email"></input>
                     
+                    <label for="message">Betreff</label>
+                    <input id="subject" name="subject" placeholder="Betreff" rows="5" required></input>
+
                     <label for="message">Nachricht</label>
                     <textarea id="message" name="message" placeholder="Nachricht" rows="5" required></textarea>
                     
