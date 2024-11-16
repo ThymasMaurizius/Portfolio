@@ -47,7 +47,7 @@ h4 {
 
 .section-header {
     margin-bottom: 10px;
-    border-bottom: 8px solid var(--main-color);
+    border-bottom: 6px solid var(--main-color);
 }
 
 h1, h2 {
@@ -58,7 +58,7 @@ h1, h2 {
 /* MAIN CONTENT */
 .main-content {
     margin-left: 13%;
-    padding: 3% 8%;
+    padding: 30px 8%;
     background-color: var(--background-white);
     flex: 1;
     transition: margin-left 0.3s ease;
@@ -148,6 +148,10 @@ section {
     fill: var(--text-color);
     animation: blink 1.5s step-start infinite;
 }
+
+.cls-19 {
+    animation: blink 1.5s step-start infinite;
+}
  
 .sidebar-logo a:hover .logo-1 {
     fill: var(--accent-color);
@@ -180,8 +184,10 @@ section {
     display: flex;
     align-items: center; /* Centers items vertically */
     justify-content: center;
-    padding: 10px;
-
+    padding: 25px;
+    background-color: var(--background-color);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .profile-picture {
@@ -192,10 +198,11 @@ section {
 }
 
 .profile-picture img {
-    max-width: 100%; /* Ensure it doesn't exceed its container */
+    max-width: 100%;
     height: auto;
-    object-fit: cover; /* Bild wird skaliert, um den Container auszufüllen, ohne Verzerrung */
-    border-radius: 50%; /* Rundes Bild */
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid var(--main-color);
 }
 
 .hero-intro {
@@ -257,11 +264,6 @@ section {
     flex-direction: column;
 }
 
-.profile-picture img {
-    border-radius: 50%; /* Rundes Bild */
-    border: 5px solid var(--main-color); /* 5px dicke, schwarze, durchgezogene Linie */
-}
-
 /* SOCIAL ICONS */
 
 .social-icons {
@@ -282,7 +284,7 @@ section {
     fill: var(--accent-color);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1450px) {
     .hero {
       flex-direction: column;
       align-items: center; /* Centers items vertically */
@@ -431,7 +433,7 @@ section {
 }
 
 .portfolio-eintrag-tags-tag {
-    background: var(--main-color);
+    background: var(--accent-color);
     padding: 5px 10px;
     border-radius: 5px;
 }
